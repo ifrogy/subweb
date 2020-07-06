@@ -13,8 +13,8 @@
   ```
   - 2.下载源码：
   ```bash
-  cd 
- git clone -b admin https://github.com/lzdnico/subweb.git
+  cd *ROOTDIR*
+  git clone -b admin https://github.com/lzdnico/subweb.git
   ```
   - 3.安装库： 
   ```bash
@@ -22,8 +22,9 @@
   pip3 install -I -r requirements.txt 
   ```
   - 4.开始运行：
+  将subweb.sh里根目录修改为*ROOTDIR*
   ```bash
-  chmod 777 /root//subweb/subweb.sh
+  chmod 777 /*ROOTDIR*/subweb/subweb.sh
   cd /root/subweb 
   ./subweb.sh 
   ```
